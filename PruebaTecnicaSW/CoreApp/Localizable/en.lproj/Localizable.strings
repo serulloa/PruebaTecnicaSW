@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  PruebaTecnicaSW
+
+  Created by Sergio Ulloa López on 09/08/2020.
+  Copyright © 2020 Sergio Ulloa. All rights reserved.
+*/
+
+/* General */
+"general_tmdb_attribution" = "This product uses the TMDb API but is not endorsed or certified by TMDb.";
+
+/* Errors */
+"error_title" = "Error";
+"network_error" = "Please, check your Internet connection.";
+"generic_error" = "An unexpected error has occurred, please, try again later.";
+
+/* Film List */
+"film_list_title" = "Movies";
+
+/* Film Detail */
+"film_detail_genre" = "Genres:";
+"film_detail_synopsis" = "Synopsis";

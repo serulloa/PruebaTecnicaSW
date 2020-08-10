@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  PruebaTecnicaSW
+
+  Created by Sergio Ulloa López on 09/08/2020.
+  Copyright © 2020 Sergio Ulloa. All rights reserved.
+*/
+
+/* General */
+"general_tmdb_attribution" = "Esta aplicación usa la API de TMDB pero no está avalada ni certificada por TMDB.";
+
+/* Errors */
+"error_title" = "Error";
+"network_error" = "Por favor, comprueba tu conexión a internet";
+"generic_error" = "Ha ocurrido un error inesperado, por favor, prueba de nuevo más tarde.";
+
+/* Film List */
+"film_list_title" = "Películas";
+
+/* Film Detail */
+"film_detail_genre" = "Géneros:";
+"film_detail_synopsis" = "Sinopsis";
