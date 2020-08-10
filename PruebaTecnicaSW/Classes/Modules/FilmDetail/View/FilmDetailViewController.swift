@@ -24,6 +24,7 @@ class FilmDetailViewController: BaseView {
     @IBOutlet weak var genreLabel: UILabel!
     @IBOutlet weak var ratingLabel: UILabel!
     @IBOutlet weak var ratingCountLabel: UILabel!
+    @IBOutlet weak var synopsisView: UIView!
     @IBOutlet weak var synopsisTitleLabel: UILabel!
     @IBOutlet weak var taglineLabel: UILabel!
     @IBOutlet weak var synopsisLabel: UILabel!
@@ -82,6 +83,9 @@ class FilmDetailViewController: BaseView {
         self.taglineLabel.text = model.tagline
         self.synopsisLabel.text = model.overview
         
+        if model.tagline?.isEmpty ?? true, model.overview?.isEmpty ?? true {
+            self.synopsisView.isHidden = true
+        }
     }
     
     /**
